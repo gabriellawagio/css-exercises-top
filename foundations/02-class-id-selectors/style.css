@@ -1,0 +1,16 @@
+.class{
+    background-color: rgb(229, 82, 107);
+    font-family: Verdana,"DejaVu Sans" ,sans-serif;
+}
+.class.class3{
+    font-size: 24px;
+}
+#no2{
+    color: #5757e4;
+    font-size: 36px;
+}
+#no4{
+    background-color: hsl(120, 65%, 71%);
+    font-size: 24px;
+    font-weight: bold;
+}

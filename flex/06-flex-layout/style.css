@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -23,4 +25,88 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.header{
+  display: flex;
+  padding: 5px;
+}
+
+.header .left-links{
+  display: flex;
+  gap: 10px;
+  padding-left: 1%;
+}
+.header .left-links li{
+  list-style: none;
+}
+.header .left-links a{
+  text-decoration: none;
+  color: black;
+}
+
+.header .right-links{
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+  padding-right: 1%;
+}
+.header .right-links li{
+  list-style: none;
+}
+.header .right-links a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.content .buttons{
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+.content .buttons button{
+  padding: 8px;
+}
+
+.footer{
+  background-color: #eee;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  padding: 5px;
+}
+.footer .left-links{
+  display: flex;
+  gap: 10px;
+  padding-left: 1%;
+}
+.footer .left-links li{
+  list-style: none;
+}
+.footer .left-links a{
+  text-decoration: none;
+  color: black;
+}
+
+.footer .right-links{
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+  padding-right: 1%;
+}
+.footer .right-links li{
+  list-style: none;
+}
+.footer .right-links a{
+  text-decoration: none;
+  color: black;
 }
